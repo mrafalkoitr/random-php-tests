@@ -1,0 +1,36 @@
+{
+    "name": "maks-rafalko/random-php-tests",
+    "description": "Playground repo for different PHP-relaed tries & tests",
+    "type": "project",
+    "require-dev": {
+        "phpstan/phpstan": "^1.10"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MaksRafalko\\RandomPhpTests\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rafalko, Maksim",
+            "email": "maks.rafalko@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:maks-rafalko/phpstan-rules.git"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "sidz/phpstan-rules": "dev-feature/extension-installer",
+        "phpstan/extension-installer": "^1.3"
+    },
+    "config": {
+        "allow-plugins": {
+            "phpstan/extension-installer": true
+        }
+    }
+}
