@@ -6,7 +6,6 @@ on:
 
 jobs:
   check:
-    permissions: write-all
     runs-on: ubuntu-latest
     steps:
       - uses: infection/tests-checker-action@v1.0.2
